@@ -1,4 +1,15 @@
+html {         
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 100%:
+}
+
+
 html > body {
+    height: 100%;
     border: 11px black solid;
     font-family: sans-serif
 }
@@ -64,4 +75,8 @@ footer {
     background-color: black;
     padding-top: 10px;
     margin-top: 25px;
+}
+
+.full {
+    background: #FFFFFF;
 }
